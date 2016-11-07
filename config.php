@@ -1,6 +1,6 @@
 <?php
 
-	$link = mysqli_connect("localhost", "cust", "mysql", "testcms");
+	$link = mysqli_connect("localhost", "mvccms", "", "mvccms");
 
 	if (!$link) {
     echo "Ошибка: Невозможно установить соединение с MySQL." . PHP_EOL;

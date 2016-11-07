@@ -4,7 +4,7 @@
   {	  
 	  function getList()
 	  {  
-    	$link = mysqli_connect("localhost", "cust", "mysql", "testcms");
+    	$link = mysqli_connect("localhost", "mvccms", "", "mvccms");
 		 $sql = "SELECT * FROM product";
 		 $result = mysqli_query($link, $sql)  or die(mysqli_error());
 	
