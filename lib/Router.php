@@ -25,7 +25,7 @@
 		}
 
 		public function Run() {
-			session_start();
+			//session_start();
 			$controller = $this->getController();
 			$cl = explode('.', $controller);
 			$cl = $cl[0];

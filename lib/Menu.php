@@ -1,6 +1,6 @@
 <?php
 	class lib_Menu {
-		public $MenuItem = array("Home"=>"/index.php", "Catalog"=>"?route=controller");
+		public $MenuItem = array("Home"=>"/index.php", "Catalog"=>"?route=controller", "Admin"=>"?route=administrator");
 
 		public function getMenu() {
 			$print="<ul>";
