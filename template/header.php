@@ -5,7 +5,12 @@
 <link rel="stylesheet" href="/template/css/template.css" type="text/css" />
 </head>
 <body>
-<a href="/index.php">Home</a>
-<a href="?route=controller">Catalog</a>
+	<?php
+		$menu = new lib_Menu;
+		$menu = $menu->getMenu();
+		echo $menu;
+	?>
+<!-- <a href="/index.php">Home</a>
+<a href="?route=controller">Catalog</a> -->
 		
 		

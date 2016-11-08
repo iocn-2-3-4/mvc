@@ -1,13 +1,15 @@
 <?php
 
- class application_models_catalog
-  {	  
-	  function getList()
-	  {  
-    	$link = mysqli_connect("localhost", "mvccms", "", "mvccms");
+ class application_models_catalog extends lib_Db {
+      
+
+	  function getList() {  
+         
 		 $sql = "SELECT * FROM product";
+         //$result = $model->query($sql);
+         $link = mysqli_connect("localhost", "mvccms", "", "mvccms");
 		 $result = mysqli_query($link, $sql)  or die(mysqli_error());
-	
+		// $result = $model->query($sql);
 		 while ($row = mysqli_fetch_assoc($result))
 		 {		 
 			$сatalogItems[]=array(

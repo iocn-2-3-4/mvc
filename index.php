@@ -20,13 +20,13 @@ include_once("./lib/Router.php");
 // 	$controller->index();
 
 
-	$router=new Router; //создаем объект, который будет искать нуджные контролеры
+$router=new Router; //создаем объект, который будет искать нуджные контролеры
 $member=$router->Run();//Начинаем поиск нужного контролера
 $member['init']=0;
   foreach ($member as $key => $value)
 	{
 	 	$$key= $value;
-	 	print_r($value);
+	 	//print_r($value);
 	}
 
 
