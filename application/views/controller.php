@@ -8,6 +8,9 @@ foreach($Items as $item){
 				<div class="product_price">
 				'.$item["price"].' 
 				</div>
+				<div class="product_image">
+				<image src="/images/'.$item["image_url"].'" />
+				</div>
 			</div>';
 		}	
 

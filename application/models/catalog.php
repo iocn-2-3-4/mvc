@@ -16,7 +16,7 @@
 				"id"=>$row['id'],
 				"name"=>$row['name'],
 				"price"=>$row['price'],
-				"url"=>$row['url']				
+				"image_url"=>$row['image_url']				
 			);
 		  }
 		

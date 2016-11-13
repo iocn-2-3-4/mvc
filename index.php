@@ -1,4 +1,9 @@
 <?php
+			// $_SESSION["Auth"]=true;
+session_start();
+if(!$_SESSION){$_SESSION["Auth"]=true;}
+					// print_r($_SESSION); 
+
 ini_set('display_errors', 'On');
 error_reporting(E_ALL);
 //include_once("config.php");
