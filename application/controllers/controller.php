@@ -10,8 +10,8 @@
          $Items = $model->getList();	
 		     $this->Items=$Items;
 
-         $Delete = $model->deleteProduct($id);
-         $this->Delete=$Delete;
+         // $Delete = $model->deleteProduct($id);
+         // $this->Delete=$Delete;
      // $Charset = $model->Getcharset();
      // $this->Charset = $Charset;
 		 //include ("application/views/view.php");
