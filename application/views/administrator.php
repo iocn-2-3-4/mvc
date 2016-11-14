@@ -36,7 +36,7 @@ if($_SESSION["Auth"]==="admin") {
 
 <?php
 if($_SESSION["Auth"] !== "admin"):
-echo "double";
+// echo "double";
 ?>
 <form action="?route=administrator" method="POST">
   Логин: &nbsp;<input type="text" name="login" value="" /><br />

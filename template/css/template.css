@@ -1,0 +1,15 @@
+.product {
+	float: left;
+}
+
+#footer {
+	clear: both;
+}
+
+.edit_product {
+	display: inline;
+}
+
+.edit_product li {
+	display: inline;
+}
