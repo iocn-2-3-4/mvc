@@ -7,6 +7,7 @@ class application_controllers_exit extends lib_Controller {
 		
 					// print_r($_SESSION); 
 $_SESSION = array();
+$_SESSION["Auth"]=true;
 // $_SESSION = array();
 }
 }

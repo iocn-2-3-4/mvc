@@ -10,7 +10,6 @@
 				if (($users['login']===$_POST['login']) && ($users['pass']===$_POST['pass'])) { 
 // session_start();
 
-					echo "opo";
 					$value = "admin";
 					// $_SESSION["newsession"]=$value;
 					$_SESSION["Auth"]=$value;

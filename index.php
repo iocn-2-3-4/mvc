@@ -33,7 +33,9 @@ $member['init']=0;
 	 	$$key= $value;
 	 	//print_r($value);
 	}
-
+ if($_SESSION["Auth"]==="admin"){	
+		require_once "admin/adminbar.php";
+		}	
 
 	
 //==================подключаем шаблон сайта===========//	
